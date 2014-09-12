@@ -18,20 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlk-dm-Cwm">
-                                <rect key="frame" x="16" y="270" width="568" height="80"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlk-dm-Cwm">
+                                <rect key="frame" x="16" y="28" width="568" height="80"/>
+                                <color key="backgroundColor" red="0.85168987770000004" green="0.85168987770000004" blue="0.85168987770000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="0pl-UA-H0B"/>
                                     <constraint firstAttribute="width" secondItem="hlk-dm-Cwm" secondAttribute="height" multiplier="71:10" id="yLT-f5-5qo"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ptJ-pK-kaB">
+                                <rect key="frame" x="16" y="116" width="568" height="476"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="8xN-K6-xQo"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="lqg-cS-RnQ"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="ptJ-pK-kaB" secondAttribute="bottom" constant="8" id="2fM-Rx-tNS"/>
+                            <constraint firstItem="ptJ-pK-kaB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3cq-c3-TxT"/>
+                            <constraint firstItem="ptJ-pK-kaB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7gO-oa-bbp"/>
                             <constraint firstItem="hlk-dm-Cwm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="85K-nn-zJh"/>
                             <constraint firstItem="hlk-dm-Cwm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZGW-jP-88J"/>
+                            <constraint firstItem="hlk-dm-Cwm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="e0t-MK-Idr"/>
+                            <constraint firstItem="ptJ-pK-kaB" firstAttribute="top" secondItem="hlk-dm-Cwm" secondAttribute="bottom" constant="8" id="gd6-U6-L81"/>
+                            <constraint firstItem="ptJ-pK-kaB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="116" id="oIz-YK-zQJ"/>
                         </constraints>
                     </view>
                     <connections>

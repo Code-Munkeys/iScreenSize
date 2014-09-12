@@ -16,6 +16,8 @@
 		C3A4440A19C1A3CF003FDC17 /* iScreenSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A4440919C1A3CF003FDC17 /* iScreenSizeTests.m */; };
 		C3A4441619C1B7F5003FDC17 /* screensize.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A4441419C1B7F5003FDC17 /* screensize.png */; };
 		C3A4441719C1B7F5003FDC17 /* screensize_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A4441519C1B7F5003FDC17 /* screensize_icon.png */; };
+		C3A4441B19C2FF23003FDC17 /* Section1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A4441A19C2FF23003FDC17 /* Section1.xib */; };
+		C3A4441D19C33227003FDC17 /* Brushed titanium.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A4441C19C33227003FDC17 /* Brushed titanium.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C3A4440919C1A3CF003FDC17 /* iScreenSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iScreenSizeTests.m; sourceTree = "<group>"; };
 		C3A4441419C1B7F5003FDC17 /* screensize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screensize.png; sourceTree = "<group>"; };
 		C3A4441519C1B7F5003FDC17 /* screensize_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screensize_icon.png; sourceTree = "<group>"; };
+		C3A4441A19C2FF23003FDC17 /* Section1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Section1.xib; sourceTree = "<group>"; };
+		C3A4441C19C33227003FDC17 /* Brushed titanium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brushed titanium.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				C3A443FA19C1A3CE003FDC17 /* Images.xcassets */,
 				C3A443FC19C1A3CE003FDC17 /* LaunchScreen.xib */,
 				C3A443ED19C1A3CE003FDC17 /* Supporting Files */,
+				C3A4441A19C2FF23003FDC17 /* Section1.xib */,
 			);
 			path = iScreenSize;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 		C3A4441319C1B7F5003FDC17 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C3A4441C19C33227003FDC17 /* Brushed titanium.png */,
 				C3A4441419C1B7F5003FDC17 /* screensize.png */,
 				C3A4441519C1B7F5003FDC17 /* screensize_icon.png */,
 			);
@@ -216,7 +222,9 @@
 			files = (
 				C3A4441619C1B7F5003FDC17 /* screensize.png in Resources */,
 				C3A443F919C1A3CE003FDC17 /* Main.storyboard in Resources */,
+				C3A4441B19C2FF23003FDC17 /* Section1.xib in Resources */,
 				C3A4441719C1B7F5003FDC17 /* screensize_icon.png in Resources */,
+				C3A4441D19C33227003FDC17 /* Brushed titanium.png in Resources */,
 				C3A443FE19C1A3CE003FDC17 /* LaunchScreen.xib in Resources */,
 				C3A443FB19C1A3CE003FDC17 /* Images.xcassets in Resources */,
 			);
