@@ -2,7 +2,7 @@
  AppDelegate.h
  iScreenSize
  
- Developed by Franz Ayestaran on 10/2/14.
+ Developed by Franz Ayestaran on 10/9/14.
  Copyright (c) 2014 Zonk Technology. All rights reserved.
  
  You may use this code in your own projects and upon doing so, you the programmer are solely
