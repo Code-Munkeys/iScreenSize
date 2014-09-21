@@ -1,10 +1,15 @@
-//
-//  ViewController.m
-//  iScreenSize
-//
-//  Created by administrator on 11/09/2014.
-//  Copyright (c) 2014 administrator. All rights reserved.
-//
+ /*
+ ViewController.m
+ iScreenSize
+ 
+ Developed by Franz Ayestaran on 10/9/14.
+ Copyright (c) 2014 Zonk Technology. All rights reserved.
+ 
+ You may use this code in your own projects and upon doing so, you the programmer are solely
+ responsible for determining it's worthiness for any given application or task. Here clearly
+ states that the code is for learning purposes only and is not guaranteed to conform to any
+ programming style, standard, or be an adequate answer for any given problem.
+ */
 
 #import "ViewController.h"
 
